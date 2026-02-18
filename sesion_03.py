@@ -34,23 +34,7 @@ while i < 5:
 else:
    print("i es ahora mayor o igual a 5")   
 
- #Practica 2
- #Dada la lista mi_lista_2 = ["Lunes","Martes","Miercoles","Jueves","Viernes"]
- # Imprimir cada elemento de la lista 3 veces y cuando sea lunes no lo incluyas
- # Pista: Usa los dos tipos de loops while y for en el mismo programa para lograrlo
- # Resultadoo:
- # martes
- # miercoles
- # jueves
- # viernes
- # martes
- # miercoles
- # jueves
- # viernes
- # martes
- # miercoles
- # jueves
- # viernes
+
 mi_lista_3 = ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes"]
 c = 0
 while c < 3:   
