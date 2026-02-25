@@ -18,4 +18,5 @@ def camina(self):
     print(f"{self.__tipo_enemigo} se mueve cerca de ti!!!")
 
 def atacar(self):
-    print(f"{self.__tipo_enemigo} ataca con un {self.ataque} de daño!!")        
+    print(f"{self.__tipo_enemigo} ataca con un {self.ataque} de daño!!")
+            
