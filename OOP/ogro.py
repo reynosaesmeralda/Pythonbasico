@@ -3,7 +3,7 @@ import random
 
 class Ogro(Enemigo):
     def __init__(self,puntos_energia=20,ataque=3):
-        super().__init__(tipo_enemigo='Ogro', puntos_energia=puntos_energia, ataque=ataque)
+        super().__init__(tipo_enemigo='Ogro', punto_energia=puntos_energia, ataque=ataque)
 
     def habla(self):
         print("Ogro aplastar todo!!!")    
@@ -13,4 +13,4 @@ class Ogro(Enemigo):
         funciona_ataque_especial = random.random ()<0.20
         if funciona_ataque_especial:
             self.ataque += 4
-            print("Ogro nojado y incremnto su ataque a 4")    
+            print("Ogro enojado y incremnto su ataque a 4")    

@@ -9,7 +9,7 @@ def batalla(e1: Enemigo, e2: Enemigo):
     e1.habla()
     e2.habla()
 
-    while e1.puntos_enrgia > 0 and e2.punto_energia >0:
+    while e1.punto_energia > 0 and e2.punto_energia >0:
         print("#######################")
         e1.ataque_especial()
         e2.ataque_especial()
@@ -27,9 +27,10 @@ def batalla(e1: Enemigo, e2: Enemigo):
         else:
             print(f"{e2.get_tipo_enemigo()} gano!!!")
 
-    print("===============BATALLA=============")
-    batalla(zombie, ogro)
-    print("=====================FIN DE LA BATALLA===========")
-print(f"{zombie.get_tipo_enemigo()}tiene{zombie.puntos_energia}de energia y ataca con {zombie.ataque}")
-print(f"{zombie.get_tipo_enemigo()}tiene{ogro.puntos_energia}de energia y ataca con {ogro.ataque}")
+    
+print("===============BATALLA=============")
+batalla(zombie, ogro)
+print("=====================FIN DE LA BATALLA===========")
+#print(f"{zombie.get_tipo_enemigo()}tiene{zombie.puntos_energia}de energia y ataca con {zombie.ataque}")
+#print(f"{zombie.get_tipo_enemigo()}tiene{ogro.puntos_energia}de energia y ataca con {ogro.ataque}")
 

@@ -5,15 +5,15 @@ class Zombie(Enemigo):
     def __init__(self, puntos_energia=10, ataque=1):
         super().__init__(tipo_enemigo='Zombie', punto_energia=puntos_energia,ataque=ataque)
 
-        def habla (self):
+        def habla(self):
             print("*Hummmmm...*")
 
         def propagar_enfermedad(self):
             print("El zombie esta tratando de propagar la enfermedad!!!")
 
-            def ataque_especial(self):
-                funciona_ataque_especial = random.random() <0.50
-                if funciona_ataque_especial:
-                    self.puntos_energia += 2
-                    print("Zombie ha regenerado su energia con 2HP!")
+        def ataque_especial(self):
+            funciona_ataque_especial = random.random() <0.50
+            if funciona_ataque_especial:
+                self.punto_energia += 2
+                print("Zombie ha regenerado su energia con 2HP!")
 
